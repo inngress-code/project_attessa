@@ -11,7 +11,7 @@ memory_db = {}
 
 init(autoreset=True)
 
-def ask(prompt, wrap_words=10):
+def ask(prompt):
 
     history.append("User: " + prompt)
     full_prompt = "\n".join(history) + "\nAssistant:"
